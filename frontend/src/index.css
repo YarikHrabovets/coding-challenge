@@ -1,0 +1,75 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    line-height: 1;
+    }
+
+.link {
+    margin-top: 10px;
+    min-height: 40px;
+}
+
+.link:hover::after {
+    content: '';
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: block;
+    height: 3px;
+    background: #bf1515;
+    animation: slide 0.5s;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1 1 auto;
+    background-color: #eee;
+    color: black;
+}
+
+.rigth-round {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.county-img {
+    max-width: 9em;
+    max-height: 9em;
+}
+
+.bg-by-turns:nth-child(2n) {
+    background-color: #E9ECEF;
+}
+
+.bg-by-turns:hover {
+    background-color: #DEE2E6;
+}
+
+@keyframes slide {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    header {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 3;
+  }
+}
