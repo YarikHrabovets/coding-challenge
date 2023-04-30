@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/coding-challenge/static/css/main.da776e9e.css",
-    "main.js": "/coding-challenge/static/js/main.9e70523e.js",
+    "main.js": "/coding-challenge/static/js/main.85f03cbc.js",
     "static/media/banner.jpeg": "/coding-challenge/static/media/banner.9e257f98faca3882cf19.jpeg",
     "static/media/404.svg": "/coding-challenge/static/media/404.1e2d262e42c1401d15f7f1744ee9773e.svg",
     "index.html": "/coding-challenge/index.html",
     "main.da776e9e.css.map": "/coding-challenge/static/css/main.da776e9e.css.map",
-    "main.9e70523e.js.map": "/coding-challenge/static/js/main.9e70523e.js.map"
+    "main.85f03cbc.js.map": "/coding-challenge/static/js/main.85f03cbc.js.map"
   },
   "entrypoints": [
     "static/css/main.da776e9e.css",
-    "static/js/main.9e70523e.js"
+    "static/js/main.85f03cbc.js"
   ]
 }
